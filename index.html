@@ -1,0 +1,529 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Fresh food, thoughtfully prepared. Discover the most-loved dishes at Foodie."
+    />
+    <title>Resturent Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container nav-wrap">
+        <a class="brand" href="#home" aria-label="Foodie home">
+          <span class="brand-mark" aria-hidden="true"><span></span></span>
+          <span>Foodie<span class="brand-dot">.</span></span>
+        </a>
+        <nav class="main-nav" aria-label="Main navigation">
+          <a class="nav-link active" href="#home">Home</a>
+          <a class="nav-link" href="#about">About us</a>
+          <a class="nav-link" href="#menu">Menu</a>
+          <a class="nav-link" href="#contact">Contact</a>
+        </nav>
+        <a class="button button-small header-cta" href="#menu"
+          >Order now <span aria-hidden="true">↗</span></a
+        >
+      </div>
+    </header>
+
+    <main>
+      <section class="hero section-space" id="home">
+        <div class="hero-glow" aria-hidden="true"></div>
+        <div class="container hero-grid">
+          <div class="hero-copy">
+            <p class="eyebrow">
+              <span class="eyebrow-line"></span> Fresh food, happy mood
+            </p>
+            <h1>
+              We’re Serving<br />For <span>Food</span> &amp; <em>Delivery.</em>
+            </h1>
+            <p class="hero-description">
+              Enjoy the finest flavors, made with fresh ingredients and
+              delivered straight to your door. Good food is always a good idea.
+            </p>
+            <div class="hero-actions">
+              <a class="button" href="#menu"
+                >Explore menu <span aria-hidden="true">↗</span></a
+              >
+              <a class="play-link" href="#about"
+                ><span class="play-icon" aria-hidden="true">▶</span> How we
+                cook</a
+              >
+            </div>
+            <div class="hero-rating">
+              <span class="rating-stars" aria-label="5 out of 5 stars"
+                >★★★★★</span
+              >
+              <span><strong>4.9/5</strong> from 2,000+ happy customers</span>
+            </div>
+          </div>
+          <div class="hero-visual">
+            <span class="hero-orbit orbit-one" aria-hidden="true"></span>
+            <span class="hero-orbit orbit-two" aria-hidden="true"></span>
+            <span class="hero-note note-left"
+              ><span class="note-icon">✦</span> Fresh<br />ingredients</span
+            >
+            <span class="hero-note note-right"
+              ><span class="note-icon">♨</span> Made with<br />love</span
+            >
+            <img
+              class="hero-image"
+              src="https://images.unsplash.com/photo-1556911220-bff31c812dba?auto=format&amp;fit=crop&amp;w=1000&amp;q=85"
+              alt="A chef preparing a fresh meal in a bright kitchen"
+            />
+            <span class="hero-image-accent" aria-hidden="true"></span>
+            <span class="floating-food food-one" aria-hidden="true">🥑</span>
+            <span class="floating-food food-two" aria-hidden="true">🍅</span>
+            <span class="floating-food food-three" aria-hidden="true">🥬</span>
+          </div>
+        </div>
+      </section>
+
+      <section class="popular section-space" aria-labelledby="popular-title">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow">A little taste of happiness</p>
+            <h2 id="popular-title">Today <span>Special</span> Dishes</h2>
+            <p>Our guests’ all-time favorites, prepared fresh just for you.</p>
+          </div>
+          <div class="popular-grid">
+            <article class="dish-card featured-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1546069901-ba9599a7e63c?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Colorful fresh garden salad"
+                />
+                <span class="dish-badge">Bestseller</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Garden Fresh Salad</h3>
+                  <span class="price">$12</span>
+                </div>
+                <p>Greens, avocado, cherry tomato &amp; house dressing.</p>
+                <a class="text-link" href="#menu"
+                  >View dish <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="dish-card featured-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1565299624946-b28f40a0ae38?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Freshly baked pizza with vegetables"
+                />
+                <span class="dish-badge">Popular</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Italian Margherita</h3>
+                  <span class="price">$15</span>
+                </div>
+                <p>Stone-baked crust, basil, mozzarella &amp; tomato.</p>
+                <a class="text-link" href="#menu"
+                  >View dish <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="dish-card featured-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Juicy cheeseburger with lettuce and tomato"
+                />
+                <span class="dish-badge">Chef’s pick</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Classic Beef Burger</h3>
+                  <span class="price">$14</span>
+                </div>
+                <p>Grilled beef, aged cheddar &amp; our special sauce.</p>
+                <a class="text-link" href="#menu"
+                  >View dish <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+            <article class="dish-card featured-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1512621776951-a57141f2eefd?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Healthy bowl with fresh vegetables"
+                />
+                <span class="dish-badge">Fresh</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Rainbow Veggie Bowl</h3>
+                  <span class="price">$13</span>
+                </div>
+                <p>Seasonal vegetables, grains &amp; zesty lemon tahini.</p>
+                <a class="text-link" href="#menu"
+                  >View dish <span aria-hidden="true">↗</span></a
+                >
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section-space" id="about">
+        <div class="container about-grid">
+          <div class="about-visual">
+            <span class="about-circle" aria-hidden="true"></span>
+            <img
+              src="https://images.unsplash.com/photo-1577219491135-ce391730fb2c?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+              alt="Our chef proudly presenting a freshly prepared dish"
+            />
+            <span class="experience-card"
+              ><strong>15+</strong><span>Years of<br />experience</span></span
+            >
+            <span class="herb herb-a" aria-hidden="true">✦</span>
+            <span class="herb herb-b" aria-hidden="true">✦</span>
+          </div>
+          <div class="about-copy">
+            <p class="eyebrow">The story behind every bite</p>
+            <h2>We are <span>more</span> than<br />just a restaurant</h2>
+            <p class="about-description">
+              At Foodie, every meal begins with a simple promise: honest
+              ingredients, thoughtful cooking, and a warm welcome. Our team
+              brings local flavors and a little creativity to every plate.
+            </p>
+            <div class="promise-grid">
+              <div class="promise">
+                <span class="promise-icon">✓</span
+                ><span>Fresh ingredients</span>
+              </div>
+              <div class="promise">
+                <span class="promise-icon">✓</span><span>Expert chefs</span>
+              </div>
+              <div class="promise">
+                <span class="promise-icon">✓</span><span>Made with love</span>
+              </div>
+              <div class="promise">
+                <span class="promise-icon">✓</span><span>Quick delivery</span>
+              </div>
+            </div>
+            <a class="button" href="#contact"
+              >Discover our story <span aria-hidden="true">↗</span></a
+            >
+          </div>
+        </div>
+      </section>
+
+      <section class="menu-section section-space" id="menu">
+        <div class="container">
+          <div class="section-heading centered">
+            <p class="eyebrow">Made fresh, served with love</p>
+            <h2>
+              More <span>Than</span> A Menu<br class="mobile-break" />
+              <span class="heading-light">For The</span> <em>Love</em>
+            </h2>
+            <p>Find your new favorite from our chef’s handpicked selection.</p>
+          </div>
+          <nav class="menu-tabs" aria-label="Menu categories">
+            <a class="menu-tab selected" href="#menu">All dishes</a>
+            <a class="menu-tab" href="#popular-title">Breakfast</a>
+            <a class="menu-tab" href="#popular-title">Lunch</a>
+            <a class="menu-tab" href="#popular-title">Dinner</a>
+            <a class="menu-tab" href="#popular-title">Desserts</a>
+            <a class="menu-tab" href="#popular-title">Drinks</a>
+          </nav>
+          <div class="menu-grid">
+            <article class="dish-card menu-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1555939594-58d7cb561ad1?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Grilled meat with roasted vegetables"
+                /><span class="dish-badge">Popular</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Grilled Garden Plate</h3>
+                  <span class="price">$16</span>
+                </div>
+                <p>Smoky grilled favorites with seasonal greens.</p>
+                <div class="dish-meta">
+                  <span>★ 4.9 <small>(120)</small></span
+                  ><a
+                    class="add-button"
+                    href="#contact"
+                    aria-label="Order Grilled Garden Plate"
+                    >+</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="dish-card menu-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1473093295043-cdd812d0e601?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Pasta with herbs and parmesan"
+                /><span class="dish-badge">Chef’s pick</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Creamy Herb Pasta</h3>
+                  <span class="price">$17</span>
+                </div>
+                <p>Silky sauce, garden herbs &amp; parmesan.</p>
+                <div class="dish-meta">
+                  <span>★ 4.8 <small>(96)</small></span
+                  ><a
+                    class="add-button"
+                    href="#contact"
+                    aria-label="Order Creamy Herb Pasta"
+                    >+</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="dish-card menu-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1547592180-85f173990554?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Warm soup served with fresh herbs"
+                /><span class="dish-badge">Fresh</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Golden Harvest Soup</h3>
+                  <span class="price">$11</span>
+                </div>
+                <p>Slow simmered vegetables with crusty bread.</p>
+                <div class="dish-meta">
+                  <span>★ 4.9 <small>(83)</small></span
+                  ><a
+                    class="add-button"
+                    href="#contact"
+                    aria-label="Order Golden Harvest Soup"
+                    >+</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="dish-card menu-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1559847844-5315695dadae?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Fresh sushi rolls arranged on a plate"
+                /><span class="dish-badge">Popular</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Coastal Sushi Rolls</h3>
+                  <span class="price">$19</span>
+                </div>
+                <p>Delicate rolls with fresh seasonal toppings.</p>
+                <div class="dish-meta">
+                  <span>★ 4.7 <small>(74)</small></span
+                  ><a
+                    class="add-button"
+                    href="#contact"
+                    aria-label="Order Coastal Sushi Rolls"
+                    >+</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="dish-card menu-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1565958011703-44f9829ba187?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Strawberry cake with cream"
+                /><span class="dish-badge">Sweet</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Strawberry Dream Cake</h3>
+                  <span class="price">$9</span>
+                </div>
+                <p>Soft sponge, fresh berries &amp; whipped cream.</p>
+                <div class="dish-meta">
+                  <span>★ 5.0 <small>(102)</small></span
+                  ><a
+                    class="add-button"
+                    href="#contact"
+                    aria-label="Order Strawberry Dream Cake"
+                    >+</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="dish-card menu-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1529042410759-befb1204b468?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Grilled skewers served with herbs"
+                /><span class="dish-badge">Chef’s pick</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Smoky Herb Skewers</h3>
+                  <span class="price">$18</span>
+                </div>
+                <p>Chargrilled, tender and full of bold flavor.</p>
+                <div class="dish-meta">
+                  <span>★ 4.8 <small>(67)</small></span
+                  ><a
+                    class="add-button"
+                    href="#contact"
+                    aria-label="Order Smoky Herb Skewers"
+                    >+</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="dish-card menu-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1551782450-a2132b4ba21d?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Double cheeseburger with crisp lettuce"
+                /><span class="dish-badge">Bestseller</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Double Cheese Burger</h3>
+                  <span class="price">$16</span>
+                </div>
+                <p>Two juicy patties, melty cheese &amp; pickles.</p>
+                <div class="dish-meta">
+                  <span>★ 4.9 <small>(156)</small></span
+                  ><a
+                    class="add-button"
+                    href="#contact"
+                    aria-label="Order Double Cheese Burger"
+                    >+</a
+                  >
+                </div>
+              </div>
+            </article>
+            <article class="dish-card menu-card">
+              <div class="dish-image-wrap">
+                <img
+                  src="https://images.unsplash.com/photo-1511690743698-d9d85f2fbf38?auto=format&amp;fit=crop&amp;w=600&amp;q=85"
+                  alt="Healthy rice bowl with vegetables"
+                /><span class="dish-badge">Fresh</span>
+              </div>
+              <div class="dish-info">
+                <div class="dish-title-row">
+                  <h3>Wholesome Buddha Bowl</h3>
+                  <span class="price">$14</span>
+                </div>
+                <p>Colorful grains, greens &amp; sesame dressing.</p>
+                <div class="dish-meta">
+                  <span>★ 4.8 <small>(91)</small></span
+                  ><a
+                    class="add-button"
+                    href="#contact"
+                    aria-label="Order Wholesome Buddha Bowl"
+                    >+</a
+                  >
+                </div>
+              </div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="delivery section-space" id="contact">
+        <div class="container delivery-grid">
+          <div class="delivery-copy">
+            <p class="eyebrow">A little goodness, wherever you are</p>
+            <h2>
+              It’s Now <span>More Easy</span> to Order<br />Your Favorite
+              <em>Food</em>
+            </h2>
+            <p>
+              Craving something delicious? Get your favorites delivered fresh
+              and fast, right to your home. Great food is only a few clicks
+              away.
+            </p>
+            <div class="store-buttons">
+              <a class="store-button" href="#menu"
+                ><span class="store-icon">▶</span
+                ><span
+                  ><small>GET IT ON</small><strong>Google Play</strong></span
+                ></a
+              >
+              <a class="store-button" href="#menu"
+                ><span class="store-icon">●</span
+                ><span
+                  ><small>Download on the</small
+                  ><strong>App Store</strong></span
+                ></a
+              >
+            </div>
+          </div>
+          <div class="delivery-visual">
+            <span class="delivery-ring" aria-hidden="true"></span>
+            <img
+              src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&amp;fit=crop&amp;w=900&amp;q=85"
+              alt="Our chef welcoming you to enjoy a delicious meal"
+            />
+            <span class="delivery-sticker"
+              ><strong>100%</strong><span>Fresh<br />delivery</span></span
+            >
+            <span class="delivery-leaf" aria-hidden="true">✦</span>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-grid">
+        <div class="footer-brand">
+          <a class="brand" href="#home"
+            ><span class="brand-mark" aria-hidden="true"><span></span></span
+            ><span>Foodie<span class="brand-dot">.</span></span></a
+          >
+          <p>
+            Good food, good mood. Fresh flavors and warm moments, made for
+            sharing.
+          </p>
+          <div class="social-links" aria-label="Social media">
+            <a href="#contact" aria-label="Instagram">ig</a
+            ><a href="#contact" aria-label="Facebook">f</a
+            ><a href="#contact" aria-label="Twitter">x</a>
+          </div>
+        </div>
+        <div class="footer-column">
+          <h3>Explore</h3>
+          <a href="#home">Home</a><a href="#about">About us</a
+          ><a href="#menu">Our menu</a><a href="#contact">Contact</a>
+        </div>
+        <div class="footer-column">
+          <h3>Our menu</h3>
+          <a href="#menu">Breakfast</a><a href="#menu">Lunch</a
+          ><a href="#menu">Dinner</a><a href="#menu">Desserts</a>
+        </div>
+        <div class="footer-column footer-newsletter">
+          <h3>Get in touch</h3>
+          <p>Fresh updates and delicious news, right to your inbox.</p>
+          <form action="#contact" method="get">
+            <label class="sr-only" for="email">Your email address</label
+            ><input
+              id="email"
+              name="email"
+              type="email"
+              placeholder="Your email address"
+            /><button type="submit" aria-label="Subscribe">↗</button>
+          </form>
+        </div>
+      </div>
+      <div class="container footer-bottom">
+        <span>© 2024 Foodie. All rights reserved.</span
+        ><span>Made with <span class="heart">♥</span> for good food.</span>
+      </div>
+    </footer>
+  </body>
+</html>
